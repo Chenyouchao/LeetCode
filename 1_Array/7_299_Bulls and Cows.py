@@ -1,5 +1,6 @@
 # 56 ms, 13.6 MB
 def getHint(secret, guess):
+
     bitmap_secret = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     bitmap_guess  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
@@ -21,6 +22,7 @@ def getHint(secret, guess):
     b_num -= a_num
 
     return "%dA%dB" % (a_num, b_num)
+    
 
 # 88 ms, 13.8 MB
 def getHint_2(secret, guess):
